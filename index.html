@@ -1354,39 +1354,50 @@
 
     <!-- Start Contact -->
     <section id="contact">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <p class="judul">&#11122; Contact <span class="text-white">Me</span></p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="mb-3">
-              <label for="nama" class="form-label">Nama Lengkap</label>
-              <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap" />
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="email" placeholder="email@gmail.com" />
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="mb-3">
-              <a class="btn btn-light" href="#" role="button">Kirim</a>
+      <form action="https://formspree.io/f/xleykvgy" method="post" id="contact-form">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <p class="judul">&#11122; Contact <span class="text-white">Me</span></p>
             </div>
           </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="mb-3">
+                <label for="nama" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="nama" placeholder="Full Name" id="full-name" name="full-name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Email@gmail.com" id="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <select class="form-select" aria-label="Default select example" id="subject" name="subject">
+                  <option selected>Subject</option>
+                  <option value="1">Give a message</option>
+                  <option value="2">Offer</option>
+                  <option value="3">Hire</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" id="message" name="message" placeholder="Your message"></textarea>
+              </div>
+              <div class="mb-3">
+                <button class="btn btn-light" role="button" type="submit">Submit</button>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#FFf"
-          fill-opacity="1"
-          d="M0,224L48,218.7C96,213,192,203,288,202.7C384,203,480,213,576,229.3C672,245,768,267,864,261.3C960,256,1056,224,1152,202.7C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#FFf"
+            fill-opacity="1"
+            d="M0,224L48,218.7C96,213,192,203,288,202.7C384,203,480,213,576,229.3C672,245,768,267,864,261.3C960,256,1056,224,1152,202.7C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </form>
     </section>
     <!-- End Contact -->
 

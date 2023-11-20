@@ -30,3 +30,24 @@ document.addEventListener("DOMContentLoaded", function () {
     accordionPanel.scrollIntoView({ behavior: "smooth" });
   });
 });
+
+// const contactForm = document.getElementById("contact-form");
+// contactForm.addEventListener("submit", function (e) {
+//   e.preventDefault();
+//   loader.style.display = "block";
+//   const url = e.target.action;
+//   const formData = new FormData(contactForm);
+
+//   fetch(url, {
+//     method: "POST",
+//     body: formData,
+//     mode: "no-cors",
+//   })
+//     .then(() => {
+//       window.location.href = "/thanks.html";
+//     })
+//     .catch((e) => {
+//       console.error("Error occurred:", e);
+//       alert("Error occurred");
+//     });
+// });
