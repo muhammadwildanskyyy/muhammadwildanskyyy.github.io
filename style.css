@@ -1,0 +1,157 @@
+.navbar {
+  background-color: #3D0000;
+
+}
+
+.navbar .navbar-brand {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+.navbar .nav-item a {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color : #ffffff;
+}
+
+.navbar .nav-item a:visited {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+}
+
+.navbar .bordercontact {
+  background-color: red;
+  border-radius: 10px;
+}
+.navbar p{
+  color: #ffffff;
+}
+
+/* Start Jumbotron */
+#jumbotron {
+  font-family: "Inter", sans-serif;
+}
+
+#jumbotron .text {
+  margin-top: 100px;
+}
+
+#jumbotron img {
+  width: 600px;
+}
+
+#jumbotron .border {
+  width: 400px;
+  height: 400px;
+}
+#jumbotron .tagline {
+  margin: -10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+/* End Jumbotron */
+
+/* Start About */
+#aboutme {
+  background-color: #ff4242;
+}
+#aboutme .container img {
+  width: 500px;
+  border-radius: 10px;
+}
+#aboutme .judul {
+  margin-bottom: -25px;
+  margin-left: 80px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#aboutme h2 {
+  text-align: center;
+  margin: 0px 0 30px 0;
+  font-weight: bold;
+  font-size: 35px;
+}
+#aboutme .deskripsi {
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: normal;
+}
+/* End About */
+
+/* Start Myservis */
+#myservices .row .col .judul {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#myservices .row .col .tagline {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+}
+
+#myservices .card {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* End Myservish */
+
+/* Start Myskill */
+.accordion-button {
+  font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+}
+
+.full-width-iframe {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Proporsi 16:9 (9/16 = 56.25%) */
+}
+
+.full-width-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#myskill .card {
+  margin-bottom: 50px;
+}
+#myskill svg {
+  margin-top: -50px;
+}
+/* End Myskill */
+
+/* Contact */
+#contact {
+  background-color: #ff4242;
+}
+#contact .judul {
+  font-weight: bold;
+  font-size: 20px;
+}
+#contact .container {
+  margin-top: -50px;
+}
+
+footer p {
+  font-weight: bold;
+}
+footer a {
+  font-weight: bold;
+}
+
+footer .link {
+  text-decoration: none;
+}
+
+footer .link:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding-top: 7rem;
+}
